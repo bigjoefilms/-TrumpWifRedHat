@@ -29,7 +29,7 @@ export const Telegram = () => {
     return (
       <div>
             <Image
-              src="/logo/telgram.png "
+              src="/logo/telegram.png "
               width={40}
               height={40}
               
