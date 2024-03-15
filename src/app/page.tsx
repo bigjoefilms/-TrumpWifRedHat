@@ -1,33 +1,15 @@
 import Image from "next/image";
 import Star from "./components/star";
-import { Footer } from "./components/footer";
-import {
-  Cap,
-  Dex,
-  Gecko,
-  Logo,
-  Soloscan,
-  Telegram,
-  X,
-} from "./components/images";
+import Link from "next/link";
+import { Header } from "./components/header";
+import { Footerlayout } from "./components/footerlayout";
 
 export default function Home() {
   return (
     <main className=" lg:px-[0]">
-      <header className=" h-[200px] lg:h-[300px] flex items-center text-center justify-center p-[20px]">
-        <div className=" gap-[20px] lg:mt-[20px] flex items-center lg:gap-[40px] ">
-          <Cap />
-          <Dex />
-          <X />
-          <Logo />
-          <Telegram />
-          <Gecko />
-
-          <Soloscan />
-        </div>
-      </header>
-      <div className="bg-[url('/logo/usa.png')] bg-opacity-5 w-full h-[700px] absolute z-[-1] opacity-5"></div>
-      <div className="flex items-center text-center justify-start flex-col h-[60vh] ">
+      <Header />
+      <div className="bg-[url('/logo/usa.png')] bg-opacity-5 w-full h-[700px]  absolute z-[-1] opacity-5"></div>
+      <div className="flex items-center text-center justify-start flex-col  ">
         <h1 className="text-[#fff]  w-auto lg:w-[1250px] font-semibold px-[15px] lg:px-[0] text-[30px] lg:text-[40px] mt-[50px]  ">
           {" "}
           <span className="bg-[#d83131] rounded-[8px] w-[145px] h-[47px] p-[10px] ">
@@ -41,9 +23,14 @@ export default function Home() {
         </p>
         <div className="flex items-center gap-[24px]"></div>
         <div>
-          <button className="h-[45px] bg-[#fff] rounded-lg text-[#111111] w-[130px] my-[10px] cursor-pointer image ">
-            Buy with $SOL
-          </button>
+          <video
+            className="w-full max-w-[1900px] h-full lg:h-[700px] max-h-[700px] mt-[25px] mb-[20px]"
+            controls
+            autoPlay
+            preload="none"
+          >
+            <source src="/path/to/video.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
 
@@ -58,6 +45,12 @@ export default function Home() {
         <div className="border-[2px] rounded-[8px] px-[10px] text-[10px] lg:text-[16px] py-[10px] flex ">
           SOL : EFzmBNRFz8cDpUrN8vMjh7jQexiWQr5E7LTzH9vokLMN
         </div>
+      </div>
+
+      <div className="flex items-center  justify-center">
+        <button className="h-[45px] bg-[#fff] rounded-lg text-[#111111] w-[130px] my-[10px] cursor-pointer image ">
+          Buy with $SOL
+        </button>
       </div>
 
       <div className="bg-[#061936] h-[40vh] my-[50px]  flex items-center text-center justify-center flex-col">
@@ -79,29 +72,7 @@ export default function Home() {
           47,000,000 Supply
         </h1>
       </div>
-      <footer className="flex px-[10px] items-center flex-col  my-[60px] gap-[10px] text-center justify-center ">
-        <div className="rounded-[50%] bg-[url('/logo.jpeg')] w-[110px] h-[110px] border-[2px] border-[#fff] bg-cover bg-no-repeat bg-center image"></div>
-        <h1 className="font-bold  text-[16px] text-[#fff] rounded-lg border border-[#fff] py-[7px] px-[10px] my-[20px] image cursor-pointer">
-          Privacy policy
-        </h1>
-        <p className="text-[#fff] text-[16px] my-[10px] underline cursor-pointer">
-          contact@trumpwifredhat@gmail.com 
-        </p>
-
-        <Footer />
-        <p className="w-full max-w-[800px] font-thin text-[14px] ">
-          Please be advised that TrumpifRedHat memecoin is a cryptocurrency
-          created for entertainment purposes and{" "}
-          <span className="font-semibold underline">
-            is not affiliated with or endorsed by Donald J. Trump.
-          </span>{" "}
-          While TrumpifRedHat memecoin may reference or incorporate elements
-          related Trump’s persona, image, or likeness, it does not imply any
-          direct endorsement, partnership, or approval by Trump. Any resemblance
-          or association between MAGA Memecoin and Donald J. Trump is purely
-          coincidental and intended for satirical or humorous purposes.
-        </p>
-      </footer>
+      <Footerlayout />
     </main>
   );
 }

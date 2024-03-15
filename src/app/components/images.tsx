@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export const X = () => {
@@ -28,17 +29,18 @@ export const Logo = () => {
 export const Telegram = () => {
     return (
       <div>
+        <Link href="https://t.me/TrumpWifRedHat" target='_blank'>
             <Image
               src="/logo/telegram.png "
               width={40}
               height={40}
-              
               alt="hero images"
               priority
               className="cursor-pointer image lg:w-[40px] lg:h-[40px] w-[20px] h-[20px] "
              
               
             />
+            </Link>
       </div>
     )
   }
