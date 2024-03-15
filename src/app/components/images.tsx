@@ -5,6 +5,7 @@ import React from 'react'
 export const X = () => {
   return (
     <div>
+      <Link href="https://twitter.com/trumpwifredhat" target='_blank'> 
          <Image
               src="/logo/xlogo.png"
               width={40}
@@ -15,6 +16,7 @@ export const X = () => {
               className="cursor-pointer  image lg:w-[40px] lg:h-[40px] w-[20px] h-[20px] "
               
             />
+             </Link>
     </div>
   )
 }

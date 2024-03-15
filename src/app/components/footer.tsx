@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export const Footer = () => {
@@ -24,16 +25,18 @@ export const Footer = () => {
               className="cursor-pointer image "
               
             />
-    <Image
+     <Link href="https://twitter.com/trumpwifredhat" target='_blank'> 
+         <Image
               src="/logo/xlogo.png"
-              width={30}
-              height={30}
+              width={40}
+              height={40}
               
               alt="hero images"
               priority
-              className="cursor-pointer image "
+              className="cursor-pointer  image lg:w-[40px] lg:h-[40px] w-[20px] h-[20px] "
               
             />
+             </Link>
               <Image
               src="/tele.png"
               width={30}

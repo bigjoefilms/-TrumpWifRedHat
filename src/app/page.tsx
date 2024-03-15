@@ -13,23 +13,23 @@ export default function Home() {
         <h1 className="text-[#fff]  w-auto lg:w-[1250px] font-semibold px-[15px] lg:px-[0] text-[30px] lg:text-[40px] mt-[50px]  ">
           {" "}
           <span className="bg-[#d83131] rounded-[8px] w-[145px] h-[47px] p-[10px] ">
-            TrumpWifRedHat
+            TrumpWiFRedHat
           </span>{" "}
-          Movement on the Blockchain. <br /> for those who think ahead.{" "}
+          Our Fight Has Only Just Begun. We Are One Movement, <br /> One People, One Family {" "}
         </h1>
         <p className="text-[#fff] w-auto lg:w-[1250px]  font-light text-[16px] ">
-          Launched on August 11th, 2023. The only active cryptocurrency donating
-          to U.S. veterans and protecting children.
+        Launched on March 15th, 2024. Committed to making America 🇺🇸 great again
         </p>
         <div className="flex items-center gap-[24px]"></div>
         <div>
           <video
             className="w-full max-w-[1900px] h-full lg:h-[700px] max-h-[700px] mt-[25px] mb-[20px]"
-            controls
+            
             autoPlay
-            preload="none"
+            poster="/thumb.png"
+            preload="metadata"
           >
-            <source src="/path/to/video.mp4" type="video/mp4" />
+            <source src="/meme.mp4" type="video/mp4"  />
           </video>
         </div>
       </div>
@@ -43,7 +43,7 @@ export default function Home() {
           Make Crypto Great again!
         </h1>
         <div className="border-[2px] rounded-[8px] px-[10px] text-[10px] lg:text-[16px] py-[10px] flex ">
-          SOL : EFzmBNRFz8cDpUrN8vMjh7jQexiWQr5E7LTzH9vokLMN
+          SOL : GNC4UrxMHGssikEfLD9URHuPGadoA7whHZZjiv6MTfzq
         </div>
       </div>
 
@@ -55,18 +55,20 @@ export default function Home() {
 
       <div className="bg-[#061936] h-[40vh] my-[50px]  flex items-center text-center justify-center flex-col">
         <h1 className="font-bold  text-[46px]">Tokenomics</h1>
+        
         <p>
-          <span className="text-[#bb133e]">(1%)</span> Tax on Buys, Sells, &
+          <span className="text-[#bb133e]">(0%)</span> Tax on Buys, Sells, &
           Transfers
         </p>
+       
         <p>
-          <span className="text-[#bb133e]">(0.40%)</span> U.S. Vets and Child
-          Rescue Donations
+          <span className="text-[#bb133e]">(10%)</span> Marketing,
+          Development
         </p>
         <p>
-          <span className="text-[#bb133e]">(0.60%)</span> Marketing,
-          Development, and Adding Liquidity
+          <span className="text-[#bb133e]">(90%)</span> Liquidity
         </p>
+        <p>The 45th President will be the <span className ="font-semibold"> 47th President.</span> That’s why we have 47 Million Max Supply.</p>
 
         <h1 className="font-bold  text-[24px] text-[#000] rounded-lg bg-[#fff] py-[7px] px-[10px] my-[20px]">
           47,000,000 Supply
