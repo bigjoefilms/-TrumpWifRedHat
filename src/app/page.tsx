@@ -13,7 +13,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="px-[10px] lg:px-[0">
+    <main className=" lg:px-[0]">
       <header className=" h-[200px] lg:h-[300px] flex items-center text-center justify-center p-[20px]">
         <div className=" gap-[20px] lg:mt-[20px] flex items-center lg:gap-[40px] ">
           <Cap />
@@ -79,17 +79,17 @@ export default function Home() {
           47,000,000 Supply
         </h1>
       </div>
-      <footer className="flex items-center flex-col  my-[60px] gap-[10px] text-center justify-center ">
+      <footer className="flex px-[10px] items-center flex-col  my-[60px] gap-[10px] text-center justify-center ">
         <div className="rounded-[50%] bg-[url('/logo.jpeg')] w-[110px] h-[110px] border-[2px] border-[#fff] bg-cover bg-no-repeat bg-center image"></div>
         <h1 className="font-bold  text-[16px] text-[#fff] rounded-lg border border-[#fff] py-[7px] px-[10px] my-[20px] image cursor-pointer">
           Privacy policy
         </h1>
-        <p className="text-[#fff] text-[16px] ">
-          contact@trumpifRedHatmemecoin.com
+        <p className="text-[#fff] text-[16px] my-[10px] underline cursor-pointer">
+          contact@trumpwifredhat@gmail.com 
         </p>
 
         <Footer />
-        <p className="w-full max-w-[800px] font-thin text-[14px]">
+        <p className="w-full max-w-[800px] font-thin text-[14px] ">
           Please be advised that TrumpifRedHat memecoin is a cryptocurrency
           created for entertainment purposes and{" "}
           <span className="font-semibold underline">
