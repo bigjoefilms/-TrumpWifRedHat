@@ -27,7 +27,7 @@ export default function Home() {
         </div>
       </header>
       <div className="bg-[url('/logo/usa.png')] bg-opacity-5 w-full h-[700px] absolute z-[-1] opacity-5"></div>
-      <div className="flex items-center text-center justify-start flex-col h-[50vh] ">
+      <div className="flex items-center text-center justify-start flex-col h-[60vh] ">
         <h1 className="text-[#fff]  w-auto lg:w-[1250px] font-semibold px-[15px] lg:px-[0] text-[30px] lg:text-[40px] mt-[50px]  ">
           {" "}
           <span className="bg-[#d83131] rounded-[8px] w-[145px] h-[47px] p-[10px] ">
@@ -49,18 +49,18 @@ export default function Home() {
 
       <div className="flex items-center text-center justify-center font-normal text-[36px] flex-col gap-[30px]">
         <Star />
-        <h1 className="font-bold  tracking-[10px] text-[20px] lg:text-[46px]">
+        <h1 className="font-bold  tracking-[11px] text-[20px] lg:text-[46px]">
           TrumpWifRedHat
         </h1>
         <h1 className="font-thin  tracking-[10px] text-[16px]">
           Make Crypto Great again!
         </h1>
-        <div className="border-[2px] rounded-[8px] px-[15px] text-[12px] lg:text-[16px] py-[10px] flex ">
+        <div className="border-[2px] rounded-[8px] px-[10px] text-[10px] lg:text-[16px] py-[10px] flex ">
           SOL : EFzmBNRFz8cDpUrN8vMjh7jQexiWQr5E7LTzH9vokLMN
         </div>
       </div>
 
-      <div className="bg-[#061936] h-[40vh] my-[50px] opacity-80 flex items-center text-center justify-center flex-col">
+      <div className="bg-[#061936] h-[40vh] my-[50px]  flex items-center text-center justify-center flex-col">
         <h1 className="font-bold  text-[46px]">Tokenomics</h1>
         <p>
           <span className="text-[#bb133e]">(1%)</span> Tax on Buys, Sells, &
@@ -84,7 +84,7 @@ export default function Home() {
         <h1 className="font-bold  text-[16px] text-[#fff] rounded-lg border border-[#fff] py-[7px] px-[10px] my-[20px] image cursor-pointer">
           Privacy policy
         </h1>
-        <p className="text-[#fff] text-[18px] ">
+        <p className="text-[#fff] text-[16px] ">
           contact@trumpifRedHatmemecoin.com
         </p>
 
