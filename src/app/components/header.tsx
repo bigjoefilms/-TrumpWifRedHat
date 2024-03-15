@@ -20,18 +20,8 @@ export const Header = () => {
           <Dex />
           <X />
           <Logo />
-          <Link href="https://t.me/TrumpWifRedHat" target='_blank'>
-            <Image
-              src="/logo/telegram.png "
-              width={40}
-              height={40}
-              alt="hero images"
-              priority
-              className="cursor-pointer image lg:w-[40px] lg:h-[40px] w-[20px] h-[20px] "
-             
-              
-            />
-            </Link>
+          <Telegram/>
+          
           <Gecko />
 
           <Soloscan />
