@@ -31,7 +31,7 @@ export const Telegram = () => {
       <div>
         <Link href="https://t.me/TrumpWifRedHat" target='_blank'>
             <Image
-              src="/logo/telegram.png "
+              src="/tele.png"
               width={40}
               height={40}
               alt="hero images"

@@ -35,7 +35,7 @@ export const Footer = () => {
               
             />
               <Image
-              src="/logo/telgram.png"
+              src="/tele.png"
               width={30}
               height={30}
               
