@@ -16,13 +16,13 @@ export const Header = () => {
     <div>
         <header className=" h-[120px] lg:h-[250px] flex items-center text-center justify-center p-[20px]">
         <div className=" gap-[20px] lg:mt-[20px] flex items-center lg:gap-[40px] ">
-          <Cap />
+          {/* <Cap /> */}
           <Dex />
           <X />
           <Logo />
           <Telegram/>
           
-          <Gecko />
+          {/* <Gecko /> */}
 
           <Soloscan />
         </div>
